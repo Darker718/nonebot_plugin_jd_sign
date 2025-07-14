@@ -65,7 +65,7 @@ pip install nonebot-plugin-jd-sign
 
 ## 📄 License
 
-MIT © yourname
+ MIT © Darker718
 
 ## 💡 鸣谢
 
