@@ -1,7 +1,6 @@
 # plugins/jd_sign/__init__.py
 from nonebot import require
 
-require("nonebot_plugin_alconna")
 require("nonebot_plugin_apscheduler")
 
 from nonebot import get_driver
@@ -17,15 +16,9 @@ __plugin_meta__ = PluginMetadata(
     name="京东签到插件",
     description="支持京东登录、自动签到、查询京豆的 QQ 机器人插件",
     usage="指令：京东登录、京东签到、查询、自动签到、查看账户",
-    extra={
-        "author": "Darker718",
-        "priority": 5,
-        "version": "0.1.0",
-        "homepage": "https://github.com/Darker718/nonebot_plugin_jd_sign",
-        "type": "application",
-        "tags": ["签到", "京东", "自动任务"],
-        "supported_adapters": {"~onebot.v11"}
-    }
+    homepage = "https://github.com/Darker718/nonebot_plugin_jd_sign",
+    type ="application",
+    supported_adapters = {"~onebot.v11"}
 )
 
 from . import handlers  # 加载指令处理器
