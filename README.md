@@ -24,7 +24,11 @@
 ```bash
 nb plugin install nonebot_plugin_jd_sign
 ```
+### 使用 `pip` 安装：
 
+```bash
+pip install nonebot-plugin-jd-sign
+```
 ## 🔧 配置项
 
 插件默认不需要额外配置。如需修改执行时间，请自定义 APScheduler 配置。
