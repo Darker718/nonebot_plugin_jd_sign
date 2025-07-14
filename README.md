@@ -2,7 +2,7 @@
 
 🎁 一个基于 [NoneBot2](https://nonebot.dev/) 的京东签到插件，支持 QQ 机器人自动进行京东签到、查询京豆数、自动定时签到等功能。
 
-[![License](https://img.shields.io/github/license/Darker718/nonebot_plugin_jd_sign)](https://github.com/Darker718/nonebot_plugin_jd_sign/master/LICENSE))
+[![License](https://img.shields.io/github/license/Darker718/nonebot_plugin_jd_sign)](https://raw.githubusercontent.com/Darker718/nonebot_plugin_jd_sign/master/LICENSE)
 ![Version](https://img.shields.io/pypi/v/nonebot-plugin-jd-sign?color=blue)
 
 ---
